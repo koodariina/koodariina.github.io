@@ -25,6 +25,12 @@ a:hover {
   color: #5446AF;
 }
 
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+	color: #495057;
+	background-color: #EFF0FB;
+	border-color: #dee2e6 #dee2e6 #fff;
+}
+
 .navbar {
 	background-color: white;
 }
@@ -65,14 +71,14 @@ h4 {
 	
 
 @media screen and (max-width: 800px) {
-#karusellikolmella	{
+#karusellikolmella, #eialasveto	{
     display: none;
   }
   
 }
 
 @media screen and (min-width: 800px) {
-#karuselliyhdella	{
+#karuselliyhdella, #alasveto	{
     display: none;
   }
   
@@ -142,7 +148,3 @@ border: 1px solid #FFEDC2;
 }
 
 
-
-html {
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-}
