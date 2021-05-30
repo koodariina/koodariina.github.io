@@ -114,7 +114,7 @@ footer	{
 
 .btn-check:focus + .btn, .btn:focus {
 	outline: 0;
-	box-shadow: 0 0 0.35rem #FFC847 !important;
+	box-shadow: 0 0 0.35rem #F29E18 !important;
 }
 
 
@@ -125,10 +125,6 @@ footer	{
 }
 
 
-.sininen.btn-check:focus + .btn, .btn:focus   {
-	outline: 0;
-	box-shadow: 0 0 0.35rem #423A7E !important;
-}
 
 
 .form-control {
